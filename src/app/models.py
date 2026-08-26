@@ -28,3 +28,6 @@ class Invoice(BaseModel):
 
     class Config:
         orm_mode = True
+
+
+MAX_INVOICES = 100
